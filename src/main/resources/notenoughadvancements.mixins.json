@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ai.arcblroth.stutils.notenoughadvancements.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinPlayerAdvancementTracker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "notenoughadvancements",
+  "version": "${version}",
+
+  "name": "Not Enough Advancements",
+  "description": "Backports a 1.19.4 stackoverflow bugfix in the server-side advancement code to 1.19.2.",
+  "authors": [
+    "Arc-blroth"
+  ],
+  "contact": {
+    "sources": "https://github.com/Arc-blroth/notenoughadvancements"
+  },
+
+  "license": "WTFPL",
+  "icon": "assets/notenoughadvancements/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "notenoughadvancements.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  }
+}
